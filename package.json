@@ -1,0 +1,21 @@
+{
+  "name": "bot-binance",
+  "version": "1.0.0",
+  "description": "This is a project to test auto tranding in binance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r dotenv/config index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "binance-api-node": "^0.10.41",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "query-string": "^7.0.0"
+  }
+}
